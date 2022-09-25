@@ -2,9 +2,8 @@ package com.yuqn.entity;
 
 public class Student {
     private String stuName;
-    private String stuSex;
-
     private Integer stuAge;
+    private String stuSex;
 
     @Override
     public String toString() {
