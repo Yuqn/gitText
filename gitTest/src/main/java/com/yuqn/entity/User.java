@@ -20,4 +20,21 @@ public class User {
     public void setUserAge(Integer userAge) {
         this.userAge = userAge;
     }
+
+    public String getUserAdd() {
+        return userAdd;
+    }
+
+    public void setUserAdd(String userAdd) {
+        this.userAdd = userAdd;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "userName='" + userName + '\'' +
+                ", userAge=" + userAge +
+                ", userAdd='" + userAdd + '\'' +
+                '}';
+    }
 }
